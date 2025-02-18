@@ -85,3 +85,8 @@ from .resnet_med import *
 # You can change the # of training/validation datas with --train_sample_size, --val_sample_size 
 python3 medmnist_train_test.py --arch 'resnet18' --num_in_channels 1  --dataset 'medmnist' --data_flag 'pneumoniamnist' --classes 2 --train_sample_size 4708 --val_sample_size 524 --gamma 0.2995 --lr 0.001 --max_epoch 10000 --root_log 'medmnist_log' --root_model 'medmnist_checkpoint' --seed 0
 ```
+
+### Rersult
+---
+![Illustration](./images/medmnist_result.png)
+> Slight performance improvement compared with standard-ERM (ResNet18) was confirmed.Suggests that the Boosting w/ DNN method is effective if the number of data is sufficient.
