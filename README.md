@@ -2,7 +2,7 @@
 
 This repository provides the code for my research [DNN×Boosting] in Pytorch.
 
-[Paper] | [Bibtex] | [Slides](./images/IBIS_2024.pdf)
+[Paper] | [Bibtex] | [Slides](https://github.com/saito-yuya/DNN_Boosting/blob/main/images/IBIS2024.pdf)
 
 ## Overveiw of Our Method
 
